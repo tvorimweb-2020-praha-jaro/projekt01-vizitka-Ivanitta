@@ -1,0 +1,43 @@
+h1{
+    font-size: 80px;
+    font-family: 'Allan', cursive;
+    text-align: center;
+    color: ivory;
+    background-color: teal;
+    margin:0;
+    padding:20px;
+
+}
+h2{
+    font-size:40px;
+    font-family: 'Allan', cursive;
+    text-align: center;
+    color:teal;
+    margin: 0;
+    padding-top: 60px;
+}
+
+.text{
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-size: 20px;
+    line-height: 1.5;
+    color: teal;
+    background-color:ivory;
+    padding-top: 10px;
+}
+
+a{
+    color: teal;
+}
+
+img{
+    width: 23%;
+    border-radius: 50%; 
+    float: left; 
+    padding: 3%;
+    margin:0;
+}
+
+body{
+    margin:0;
+   }
