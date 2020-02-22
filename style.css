@@ -2,6 +2,8 @@ h1{
     font-size: 80px;
     font-family: 'Allan', cursive;
     text-align: center;
+    text-shadow: 2px 2px 7px rgb(39, 38, 38);
+    letter-spacing: 10px;
     color: ivory;
     background-color: teal;
     margin:0;
@@ -10,14 +12,15 @@ h1{
 }
 h2{
     font-size:40px;
-    font-family: 'Allan', cursive;
+    font-family: 'Open Sans Condensed', sans-serif;
     text-align: center;
+    border-radius: 20px;
     color:teal;
     margin: 0;
     padding-top: 60px;
 }
 
-.text{
+p{
     font-family: 'Open Sans Condensed', sans-serif;
     font-size: 20px;
     line-height: 1.5;
@@ -26,8 +29,33 @@ h2{
     padding-top: 10px;
 }
 
-a{
-    color: teal;
+
+.menu{
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-size: 40px;
+    text-align: center;
+    text-shadow: 2px 2px 7px rgb(39, 38, 38);
+    background-color:rgb(7, 172, 172);
+    margin-top: 0;
+     
+}
+
+.menu a{
+    color: ivory;
+    text-decoration: none;
+    padding: 20px 10px;
+    display: inline-block;
+    cursor:context-menu; 
+}
+
+.menu li{
+    display: inline-block;
+    min-width: 10%;
+}
+
+li:hover,
+li:focus{
+    background-color: white;
 }
 
 img{
@@ -40,4 +68,14 @@ img{
 
 body{
     margin:0;
-   }
+}
+
+.kontakt{
+    text-align: center;
+    max-width: 500px;
+    padding-left: 450px;  
+}
+
+.uvod{
+    text-align: center;
+}
