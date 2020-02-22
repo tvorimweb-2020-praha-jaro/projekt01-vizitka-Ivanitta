@@ -71,11 +71,18 @@ body{
 }
 
 .kontakt{
-    text-align: center;
     max-width: 500px;
     padding-left: 450px;  
 }
 
-.uvod{
+.obalka{
+    width:400px;
+    padding-right: 30px;
+    float:right;
+    border-radius: 20%;
+}
+
+.uvod p{
     text-align: center;
+    font-size: 40px;
 }
